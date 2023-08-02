@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-  <h1>hi</h1>
+    <section id="home">
+        <h1 id="title">Leaderboard</h1>
+        <div id="scores">
+            <div id="recent-s">
+                <div id="r-s-text"> 
+                    <h2 class="text">Recent scores</h2>
+                    <button id="btn-refresh" class="btn">Refresh</button>
+                </div>
+                <table id="s-list">
+                    <tr class="s-item">
+                        <th class="s-name">Name : 100</th>
+                    </tr>
+                    <tr class="s-item">
+                      <th class="s-name">Name : 800</th>
+                    </tr>
+                    <tr class="s-item">
+                      <th class="s-name">Name : 1200</th>
+                    </tr>
+                </table>
+            </div>
+            <div id="new-s">
+                <h2 class="text">Add your score</h2>
+                <form id="form">
+                    <input type="text" id="name" placeholder="Your Name">
+                    <input type="number" id="number" placeholder="Your score">
+                    <button type="submit" id="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    
+    </section>
 </body>
 </html>

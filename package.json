@@ -25,5 +25,8 @@
     "build": "webpack",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "babel-loader": "^9.1.3"
   }
 }
