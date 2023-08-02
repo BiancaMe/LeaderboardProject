@@ -1,22 +1,89 @@
-:root {
-  --primary: #ddd;
-  --secondary: #e5d4d4;
+body {
+  font-family: cursive;
+  background-color: rgb(234, 234, 234);
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--primary);
-}
-
-body {
+#home {
   display: flex;
+  flex-direction: column;
+  padding: 0 50px 0 50px;
+}
+
+#title {
+  font-size: 60px;
+}
+
+#scores {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#recent-s {
+  width: 45%;
+  padding: 0 5% 0 5%;
+}
+
+#r-s-text {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
 }
 
-* {
-  box-sizing: border-box;
+.text {
+  font-size: 42px;
+}
+
+.btn {
+  height: 40px;
+  width: 120px;
+  font-size: 25px;
+  font-family: cursive;
+  background-color: transparent;
+  border: 3px solid black;
+  border-right: 5px solid black;
+  border-bottom: 4px solid black;
+  margin-top: 8px;
+}
+
+/* ------- Table ---- */
+#s-list {
+  width: 100%;
+  border: 2px solid black;
+  font-size: 20px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(255, 251, 251);
+}
+
+th {
+  padding-left: 15px;
+}
+
+/* -------- add new Score ---- */
+#new-s {
+  width: 45%;
+  padding: 0 5% 0 5%;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 0 40% 0 0;
+}
+
+input {
+  height: 40px;
+  background-color: transparent;
+  font-family: cursive;
+}
+
+#submit {
+  margin-left: 60%;
 }

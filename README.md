@@ -1,76 +1,161 @@
-# Webpack Linters Template
+<div align="center">
+  
 
-This is a template repository for setting up a project with Webpack and linters (ESLint and Stylelint) configured. It provides a solid foundation for building JavaScript and CSS projects while ensuring code quality and adherence to coding standards.
+  <h1><b> Leaderboard</b></h1>
 
-## Features
+</div>
 
-- Webpack configuration for bundling JavaScript and CSS files
-- ESLint for JavaScript linting with a recommended configuration
-- Stylelint for CSS linting with a recommended configuration
-- Pre-commit hooks to run linters before committing changes
-- Deployment script for deploying the project to GitHub Pages
+<!-- TABLE OF CONTENTS -->
 
-## Getting Started
+# 📗 Table of Contents
 
-To use this template and set up your project, follow these steps:
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Leadboard](#-leadboard)
+  - [🛠 Built With HTML5, CSS3 \& JS](#-built-with-html5-css3--js)
+    - [Tech Stack HTML5](#tech-stack-html5)
+    - [Tech Stack CSS3](#tech-stack-css3)
+    - [Tech Stack JS](#tech-stack-js)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-1. Click on the "Use this template" button or manually clone the repository.
-2. Clone the repository to your local machine using Git.
-   ```bash
-   git clone https://github.com/kit0-0/webpack-linters-template.git
-   ```
-3. Navigate to the project directory.
-   ```bash
-   cd webpack-linters-template
-   ```
-4. Install the dependencies.
-   ```bash
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 <a name="about-project">Leadboard</a>
+
+**Leaderboard** is a app to build a score list, you can add your name and your score , and see the list of all the scores submited.
+
+## 🛠 Built With <a name="built-with">HTML5, CSS3 & JS</a>
+
+### Tech Stack <a name="tech-stack">HTML5</a>
+
+<details>
+  <summary>HTML5</summary>
+  <ul>
+    <li><a href="[https://expressjs.com](https://developer.mozilla.org/es/docs/Web/HTML)/">Web-HTML5 </a></li>
+  </ul>
+</details>
+
+### Tech Stack <a name="tech-stack">CSS3</a>
+
+<details>
+  <summary>CSS3</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">Info CSS3</a></li>
+  </ul>
+</details>
+
+### Tech Stack <a name="tech-stack">JS</a>
+
+<details>
+  <summary>JS</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">Info JS</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Set up the linter for fixing the errors and clean code**
+- **Add the structured content using HTML**
+- **Learn how to use proper ES6 syntax**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!----- LIVE DEMO 
+## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo Link](https://biancame.github.io/ToDoProject/dist/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+A computer
+
+### Setup
+
+Clone this repository to your desired folder:
+
+cd my-folder
+git clone https://github.com/BiancaMe/LeaderboardProject.git
+
+### Usage
+1.Navigate to the project directory:
+  cd LeaderboardProject
+
+2. Install dependencies:
    npm install
-   ```
-5. Start the development server.
-   ```bash
+   
+3. Run the project: 
    npm start
-   ```
-   This will compile the project and launch the development server.
-6. Begin coding your project, writing JavaScript and CSS code in the `src` directory.
 
-## Scripts
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The following scripts are available in the project:
+<!-- AUTHORS -->
 
-- `npm start`: Starts the development server.
-- `npm run build`: Builds the project for production.
-- `npm run lint`: Runs ESLint and Stylelint to check for linting issues.
-- `npm test`: Runs the project's tests (if any).
-- `npm run deploy`: Deploys the project to GitHub Pages.
+## 👥 Authors <a name="authors"></a>
 
-## Configuration
+👤 **Bianca Lopez**
 
-The project includes default configurations for ESLint and Stylelint, located in the root directory:
+- GitHub: [@BiancaMe](https://github.com/BiancaMe)
+- Twitter: [@BiancaMeLopez](https://twitter.com/BiancaMeLopez)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bianca-lopez-55a4a3276/)
 
-- `.eslintrc.json`: ESLint configuration file with recommended settings.
-- `.stylelintrc.json`: Stylelint configuration file with recommended settings.
 
-You can modify these configuration files according to your project's requirements.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Pre-commit Hooks
+<!-- FUTURE FEATURES -->
 
-The project is configured to run the linters automatically before committing changes, ensuring that code quality and style standards are maintained. If any issues are found, the commit will be blocked until the issues are resolved.
+## 🔭 Future Features <a name="future-features"></a>
 
-## Deploying to GitHub Pages
+- [ ] **Reordering a selected item (as drag-and-drop)**
 
-To deploy your project to GitHub Pages, use the following script:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```bash
-npm run deploy
-```
+<!-- CONTRIBUTING -->
 
-This script will use `gh-pages` to deploy the contents of the `dist` directory to the `gh-pages` branch of your repository. Make sure to set up GitHub Pages for your repository before running this command.
+## 🤝 Contributing <a name="contributing"></a>
+Contributions, issues, and feature requests are welcome!
 
-## Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you have suggestions, improvements, or bug fixes, please feel free to contribute to this project. Fork the repository, make your changes, and submit a pull request with a clear description of your changes.
+<!-- SUPPORT -->
 
-## License
+## ⭐️ Show your support <a name="support"></a>
 
-The project is licensed under the [MIT License](LICENSE). Feel free to use and modify the template according to your needs.
+If you like this project you can contac me and let me know.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank cc Creative Commons for letting me use their platform and letting me do some changes in init. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
