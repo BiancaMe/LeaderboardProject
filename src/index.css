@@ -1,6 +1,6 @@
 body {
-  font-family: cursive;
-  background-color: rgb(234, 234, 234);
+  font-family: "Press Start 2P", cursive;
+  background-image: url("https://i.pinimg.com/originals/28/13/81/281381a209e6b7b9eb041a9c754b5494.png");
 }
 
 #home {
@@ -9,8 +9,18 @@ body {
   padding: 0 50px 0 50px;
 }
 
+#heading {
+  display: flex;
+}
+
 #title {
   font-size: 60px;
+  color: rgb(198, 198, 198);
+}
+
+#cup {
+  width: 150px;
+  margin-left: 25px;
 }
 
 #scores {
@@ -35,6 +45,7 @@ body {
 
 .text {
   font-size: 42px;
+  color: rgb(255, 255, 255);
 }
 
 .btn {
@@ -42,23 +53,32 @@ body {
   width: 120px;
   font-size: 25px;
   font-family: cursive;
-  background-color: transparent;
-  border: 3px solid black;
-  border-right: 5px solid black;
-  border-bottom: 4px solid black;
+  font-weight: 900;
+  background-color: rgb(96, 96, 96);
+  border: 3px solid rgb(127, 127, 127);
+  border-right: 5px solid rgb(43, 43, 43);
+  border-bottom: 4px solid rgb(30, 30, 30);
   margin-top: 8px;
+  color: rgb(230, 224, 224);
 }
 
 /* ------- Table ---- */
 #s-list {
   width: 100%;
-  border: 2px solid black;
-  font-size: 20px;
+  border: 5px solid rgb(153, 150, 150);
+  font-size: 28px;
+  font-family: cursive;
   text-align: left;
+  background-color: rgba(169, 169, 169, 0.373);
+}
+
+tr {
+  height: 40px;
 }
 
 tr:nth-child(even) {
-  background-color: rgb(255, 251, 251);
+  background-color: rgba(114, 114, 114, 0.56);
+  color: rgb(211, 208, 208);
 }
 
 th {
@@ -82,9 +102,15 @@ input {
   height: 40px;
   background-color: transparent;
   font-family: cursive;
+  font-size: 25px;
+  color: white;
 }
 
 #submit {
+  margin-left: 60%;
+}
+
+#animal {
   margin-left: 60%;
 }
 
@@ -96,9 +122,9 @@ input {
 }
 
 .loader {
-  border: 5px solid #f3f3f3;
+  border: 5px solid #cbcbcb;
   border-radius: 50%;
-  border-top: 5px solid #000;
+  border-top: 5px solid #414141;
   width: 30px;
   height: 30px;
   -webkit-animation: spin 1s linear infinite; /* Safari */
@@ -107,13 +133,23 @@ input {
 
 /* Safari */
 @-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 p {
